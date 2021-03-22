@@ -20,7 +20,7 @@ $def_coy - the default company that is pre-selected on login
 
 $def_coy = 0;
 
-$tb_pref_counter = 9;
+$tb_pref_counter = 11;
 
 $db_connections = array (
   0 => 
@@ -112,6 +112,28 @@ $db_connections = array (
     'tbpref' => '1',
   ),
   8 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '2',
+  ),
+  9 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '2',
+  ),
+  10 => 
   array (
     'name' => 'New Db name',
     'host' => 'localhost',

@@ -190,3 +190,7 @@
 [22-Mar-2021 07:30:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
 [22-Mar-2021 07:30:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
 [22-Mar-2021 07:30:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[22-Mar-2021 08:09:52 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[22-Mar-2021 08:09:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[22-Mar-2021 08:09:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[22-Mar-2021 08:09:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.

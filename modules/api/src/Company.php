@@ -7,9 +7,10 @@ include_once("../../admin/db/maintenance_db.inc");
 class Company
 {
 
-    function handle_submit($selected_id)
+    function handle_submit()
     {
 
+        $selected_id = -1;
         global $db_connections, $def_coy, $tb_pref_counter, $db,
                $comp_subdirs, $path_to_root, $Mode;
 
@@ -48,16 +49,17 @@ class Company
                 $db_connections[$selected_id]['tbpref'] = "";
             }
 
+            $db_connections[$selected_id]['tbpref'] = $_POST['tbpref'];
             $conn = $db_connections[$selected_id];
             if (($db = db_create_db($conn)) === false) {
-                display_error(_("Error creating Database: ") . $conn['dbname'] . _(", Please create it manually"));
+                api_error(412, 'Error creating Database ');
                 $error = true;
             } else {
                 if (strncmp(db_get_version(), "5.6", 3) >= 0){
                     db_query("SET sql_mode = ''");
                 }
                 if (!db_import_api($path_to_root . '/sql/' . get_post('coa'), $conn, $selected_id)) {
-                    display_error(_('Cannot create new company due to bugs in sql file.'));
+                    api_error(412, 'Cannot create new company due to bugs in sql file.');
                     $error = true;
                 } else {
                     if (!isset($_POST['admpassword']) || $_POST['admpassword'] == ""){
@@ -75,15 +77,13 @@ class Company
 
         if ($error == -1)
         {
-            display_error(_("Cannot open the configuration file - ") . $path_to_root . "/config_db.php");
+            api_error(412, 'Cannot open the configuration file');
         }
         else if ($error == -2){
-            display_error(_("Cannot write to the configuration file - ") . $path_to_root . "/config_db.php");
-
+            api_error(412, 'Cannot write to the configuration file ');
         }
         else if ($error == -3){
-            display_error(_("The configuration file ") . $path_to_root . "/config_db.php" . _(" is not writable. Change its permissions so it is, then re-run the operation."));
-
+            api_error(412, 'The configuration file is not writable. Change its permissions so it is, then re-run the operation.');
         }
         if ($error != 0) {
             return false;
@@ -94,8 +94,7 @@ class Company
             $exts = get_company_extensions();
             write_extensions($exts, $selected_id);
         }
-        display_notification($new ? _('New company has been created.') : _('Company has been updated.'));
-
+        api_success_response("New company has been created.");
         $Mode = 'RESET';
         return true;
     }

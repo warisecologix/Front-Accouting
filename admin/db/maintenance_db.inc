@@ -494,6 +494,7 @@ function db_import($filename, $connection, $force=true, $init=true, $protect=fal
 }
 function db_import_api($filename, $connection, $force=true, $init=true, $protect=false, $return_errors=false)
 {
+
 	global $db, $SysPrefs;
 
 	$trail = $SysPrefs->sql_trail;
@@ -565,7 +566,7 @@ function db_import_api($filename, $connection, $force=true, $init=true, $protect
 
 		$line = trim($line);
 		if ($init)
-			$line = str_replace("0_", $connection["tbpref"], $line);
+			$line = str_replace("0_",( $connection["tbpref"]."_"), $line);
 
 		if ($query_table == '')
 		{	// check if line begins with one of allowed queries

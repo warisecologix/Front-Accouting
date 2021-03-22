@@ -20,7 +20,7 @@ $def_coy - the default company that is pre-selected on login
 
 $def_coy = 0;
 
-$tb_pref_counter = 1;
+$tb_pref_counter = 8;
 
 $db_connections = array (
   0 => 
@@ -33,5 +33,82 @@ $db_connections = array (
     'tbpref' => '0_',
     'dbuser' => 'root',
     'dbpassword' => '',
+  ),
+  1 => 
+  array (
+    'name' => 'Waris Zargar',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '1_',
+  ),
+  2 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '2',
+  ),
+  3 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '2',
+  ),
+  4 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '1',
+  ),
+  5 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '1',
+  ),
+  6 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '1',
+  ),
+  7 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '1',
   ),
 );

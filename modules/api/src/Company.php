@@ -10,9 +10,21 @@ class Company
     function handle_submit()
     {
 
-        $selected_id = -1;
         global $db_connections, $def_coy, $tb_pref_counter, $db,
                $comp_subdirs, $path_to_root, $Mode;
+        $_POST['host'] = 'localhost';
+        $_POST['port'] = 3306;
+        $_POST['dbuser'] = 'root' ;
+        $_POST['dbpassword'] = '';
+        $_POST['dbname'] = 'frontaccounting' ;
+        $_POST['collation'] = 'utf8_xx';
+        $_POST['tbpref'] = $tb_pref_counter ;
+        $_POST['coa'] = 'en_US-demo.sql';
+        $_POST['selected_id'] = -1;
+
+        $selected_id = -1;
+
+
 
         $error = false;
 
@@ -38,7 +50,6 @@ class Company
             $db_connections[$selected_id]['collation'] = $_POST['collation'];
 
             if (is_numeric($_POST['tbpref'])) {
-
                 $db_connections[$selected_id]['tbpref'] = $_POST['tbpref'] == 1 ?
                 $tb_pref_counter . "_" : '';
             } else if ($_POST['tbpref'] != "") {
@@ -49,7 +60,7 @@ class Company
                 $db_connections[$selected_id]['tbpref'] = "";
             }
 
-            $db_connections[$selected_id]['tbpref'] = $_POST['tbpref'];
+            $db_connections[$selected_id]['tbpref'] = $tb_pref_counter;
             $conn = $db_connections[$selected_id];
             if (($db = db_create_db($conn)) === false) {
                 api_error(412, 'Error creating Database ');
@@ -66,13 +77,18 @@ class Company
                         $_POST['admpassword'] = "password";
                         update_admin_password($conn, md5($_POST['admpassword']));
                     }
+
                 }
+            }
+            if(isset($_POST['username']) || $_POST['username'] != ""){
+                update_admin_user_id($conn, $_POST['username']);
             }
             if ($error) {
                 remove_connection($selected_id);
                 return false;
             }
         }
+
         $error = write_config_db($new);
 
         if ($error == -1)
@@ -94,6 +110,7 @@ class Company
             $exts = get_company_extensions();
             write_extensions($exts, $selected_id);
         }
+
         api_success_response("New company has been created.");
         $Mode = 'RESET';
         return true;

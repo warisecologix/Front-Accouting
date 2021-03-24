@@ -64,6 +64,11 @@ function update_admin_password($conn, $password)
 		WHERE user_id='admin'";
 	db_query($sql, "could not update user password for 'admin'");
 }
+function update_admin_user_id($conn,$user)
+{
+	$sql = "UPDATE ".$conn['tbpref']."_users SET user_id=".db_escape($user);
+	db_query($sql, "could not update user id ");
+}
 
 function write_config_db($new = false)
 {

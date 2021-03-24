@@ -20,7 +20,7 @@ $def_coy - the default company that is pre-selected on login
 
 $def_coy = 0;
 
-$tb_pref_counter = 11;
+$tb_pref_counter = 5;
 
 $db_connections = array (
   0 => 
@@ -143,5 +143,115 @@ $db_connections = array (
     'dbname' => 'frontaccounting',
     'collation' => 'utf8_xx',
     'tbpref' => '2',
+  ),
+  11 => 
+  array (
+    'name' => 'New Db name',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '2',
+  ),
+  12 => 
+  array (
+    'name' => 'New Company Register',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => '3',
+  ),
+  13 => 
+  array (
+    'name' => 'New Company Register',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 13,
+  ),
+  14 => 
+  array (
+    'name' => 'New Company Register',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 14,
+  ),
+  15 => 
+  array (
+    'name' => 'New Company Register',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 15,
+  ),
+  16 => 
+  array (
+    'name' => 'New Company Register',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 1,
+  ),
+  17 => 
+  array (
+    'name' => 'New Company Register',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 1,
+  ),
+  18 => 
+  array (
+    'name' => 'New Company Register',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 2,
+  ),
+  19 => 
+  array (
+    'name' => 'Junaid Company',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 3,
+  ),
+  20 => 
+  array (
+    'name' => 'Junaid Company',
+    'host' => 'localhost',
+    'port' => 3306,
+    'dbuser' => 'root',
+    'dbpassword' => '',
+    'dbname' => 'frontaccounting',
+    'collation' => 'utf8_xx',
+    'tbpref' => 4,
   ),
 );

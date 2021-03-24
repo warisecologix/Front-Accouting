@@ -54,11 +54,11 @@ function check_data($selected_id)
 		 if($id != $selected_id && $_POST['host'] == $con['host'] 
 		 	&& $_POST['dbname'] == $con['dbname'])
 	  		{
-				if ($_POST['tbpref'] == $con['tbpref'])
-				{
-					display_error(_("This database settings are already used by another company."));
-					return false;
-				}
+//				if ($_POST['tbpref'] == $con['tbpref'])
+//				{
+//					display_error(_("This database settings are already used by another company."));
+//					return false;
+//				}
 				if (($_POST['tbpref'] == 0) ^ ($con['tbpref'] == ''))
 				{
 					display_error(_("You cannot have table set without prefix together with prefixed sets in the same database."));

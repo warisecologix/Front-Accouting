@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79bea67e-c29e-4bb2-8495-b044afb1724f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/api/src/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api/src/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/create_coy.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/create_coy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,10 +99,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616566591028" />
-    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1616421111601">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2468" y="139" width="823" height="763" key="find.popup" timestamp="1616589132149">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1616421111601" />
+    <state x="2468" y="139" width="823" height="763" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616589132149" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1616568022141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

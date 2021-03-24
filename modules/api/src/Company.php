@@ -106,6 +106,7 @@ class Company
         }
 
         if ($new) {
+            $comp_subdirs = array('images', 'pdf_files', 'backup','js_cache', 'reporting', 'attachments');
             create_comp_dirs(company_path($selected_id), $comp_subdirs);
             $exts = get_company_extensions();
             write_extensions($exts, $selected_id);

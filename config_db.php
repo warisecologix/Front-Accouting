@@ -20,7 +20,7 @@ $def_coy - the default company that is pre-selected on login
 
 $def_coy = 0;
 
-$tb_pref_counter =1;
+$tb_pref_counter = 1;
 
 $db_connections = array (
   0 => 

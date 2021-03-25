@@ -425,3 +425,41 @@
 [25-Mar-2021 07:51:27 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 07:51:27 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 07:51:27 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:10 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:10 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:10 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:11 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:14 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:16 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:19 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:45 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 08:04:45 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:04:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:06:12 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 08:06:12 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:06:12 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:06:12 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:06:36 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 08:06:36 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:06:36 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:06:36 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:07:40 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 08:07:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:07:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:07:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:13 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 08:08:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:21 Europe/Berlin] <b>DATABASE ERROR :</b> could not update user id <br>error code : 1146<br>error message : Table 'frontaccounting.3__users' doesn't exist<br>sql that failed was : UPDATE 3__users SET user_id='waris'<br><br><br>
+[25-Mar-2021 08:08:31 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 08:08:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:57 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:08:59 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:09:16 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:09:16 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:09:16 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 08:09:16 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.

@@ -75,9 +75,11 @@ class Company
                 } else {
                     if (!isset($_POST['admpassword']) || $_POST['admpassword'] == ""){
                         $_POST['admpassword'] = "password";
-                        update_admin_password($conn, md5($_POST['admpassword']));
+                        update_admin_password_api($conn, md5($_POST['admpassword']));
                     }
-
+                    else{
+                        update_admin_password_api($conn, md5($_POST['admpassword']));
+                    }
                 }
             }
             if(isset($_POST['username']) || $_POST['username'] != ""){

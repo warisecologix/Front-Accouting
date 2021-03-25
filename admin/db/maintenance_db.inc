@@ -58,7 +58,13 @@ function array_natsort($aryData, $strIndex, $strSortBy, $strSortType=false)
    return $aryResult;
 }
 
-function update_admin_password($conn, $password)
+function update_admin_password_api($conn, $password)
+{
+    $conn['tbpref'] = (string)$conn['tbpref'] . "_";
+	$sql = "UPDATE ".$conn['tbpref']."users SET password=".db_escape($password) . "
+		WHERE user_id='admin'";
+	db_query($sql, "could not update user password for 'admin'");
+}function update_admin_password($conn, $password)
 {
 	$sql = "UPDATE ".$conn['tbpref']."users SET password=".db_escape($password) . "
 		WHERE user_id='admin'";

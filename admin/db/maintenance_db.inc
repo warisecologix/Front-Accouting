@@ -125,6 +125,7 @@ function write_config_db_api($new = false)
 
 	$db_connections_single = $db_connections[$tb_pref_counter];
 	$db_connections_single['tbpref'] = (string) $db_connections_single['tbpref'] . "_";
+	$db_connections_single['port'] = (string) $db_connections_single['port'];
     $db_connections[$tb_pref_counter] = $db_connections_single ;
 	if ($new)
 		$tb_pref_counter++;

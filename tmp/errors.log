@@ -397,3 +397,31 @@
 [25-Mar-2021 07:45:23 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 07:45:23 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 07:45:23 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:47:14 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:47:17 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:47:59 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 07:47:59 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:47:59 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:47:59 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:48:38 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:48:49 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:48:49 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:48:49 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:48:49 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:01 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 07:50:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:34 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:36 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:37 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:41 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:41 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:45 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:50:45 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:51:03 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:51:03 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:51:27 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:51:27 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:51:27 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 07:51:27 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.

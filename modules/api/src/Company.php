@@ -113,8 +113,11 @@ class Company
             $exts = get_company_extensions();
             write_extensions($exts, $selected_id);
         }
+        $company_id = $tb_pref_counter;
+        $company_id  = ($company_id - 1);
+        $status = ['message' => 'New company has been created' , 'prefix' => $company_id];
 
-        api_success_response("New company has been created.");
+        api_success_response($status);
         $Mode = 'RESET';
         return true;
     }

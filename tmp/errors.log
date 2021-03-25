@@ -463,3 +463,17 @@
 [25-Mar-2021 08:09:16 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 08:09:16 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 08:09:16 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 09:43:15 Europe/Berlin] 0::session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 09:43:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 09:43:18 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, null given
+[25-Mar-2021 09:43:18 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, null given
+[25-Mar-2021 09:43:18 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, null given
+[25-Mar-2021 09:43:18 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, null given
+[25-Mar-2021 09:43:18 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, null given
+[25-Mar-2021 09:43:18 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, null given
+[25-Mar-2021 09:43:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 09:43:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 09:44:50 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[25-Mar-2021 09:44:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 09:44:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[25-Mar-2021 09:44:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.

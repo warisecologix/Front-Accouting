@@ -34,5 +34,4 @@ $db_connections = array (
     'dbuser' => 'root',
     'dbpassword' => '',
   ),
-
 );

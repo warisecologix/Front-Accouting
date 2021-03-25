@@ -72,8 +72,60 @@ function update_admin_user_id($conn,$user)
 
 function write_config_db($new = false)
 {
+    global $path_to_root, $def_coy, $db_connections, $tb_pref_counter;
+    if ($new)
+        $tb_pref_counter++;
+    $msg = "<?php\n\n";
+    $msg .= "/*Connection Information for the database\n";
+    $msg .= "\$def_coy - the default company that is pre-selected on login\n\n";
+    $msg .= "'host' - the computer ip address or name where the database is. The default is 'localhost' assuming that the web server is also the sql server.\n\n";
+    $msg .= "'port' - the computer port where the database is. The default is '3306'. Set empty for default.\n\n";
+    $msg .= "'dbuser' - the user name under which the company database should be accessed.\n";
+    $msg .= "  NB it is not secure to use root as the dbuser with no password - a user with appropriate privileges must be set up.\n\n";
+    $msg .= "'dbpassword' - the password required for the dbuser to authorise the above database user.\n\n";
+    $msg .= "'dbname' - the name of the database as defined in the RDMS being used. Typically RDMS allow many databases to be maintained under the same server.\n";
+    $msg .= "'collation' - the character set used for the database.\n";
+    $msg .= "'tbpref' - prefix on table names, or '' if not used. Always use non-empty prefixes if multiply company use the same database.\n";
+    $msg .= "*/\n\n\n";
+
+    $msg .= "\$def_coy = " . $def_coy . ";\n\n";
+    $msg .= "\$tb_pref_counter = " . $tb_pref_counter . ";\n\n";
+    $msg .= "\$db_connections = " .var_export($db_connections, true);
+    $msg .= ";\n";
+
+    $filename = $path_to_root . "/config_db.php";
+    // Check if the file exists and is writable first.
+    if ((!file_exists($filename) && is_writable($path_to_root)) || is_writable($filename))
+    {
+        if (!$zp = fopen($filename, 'w'))
+        {
+            return -1;
+        }
+        else
+        {
+            if (!fwrite($zp, $msg))
+            {
+                fclose($zp);
+                return -2;
+            }
+            // Close file
+            fclose($zp);
+            cache_invalidate($filename);
+        }
+    }
+    else
+    {
+        return -3;
+    }
+    return 0;
+}
+function write_config_db_api($new = false)
+{
 	global $path_to_root, $def_coy, $db_connections, $tb_pref_counter;
 
+	$db_connections_single = $db_connections[$tb_pref_counter];
+	$db_connections_single['tbpref'] = (string) $db_connections_single['tbpref'] . "_";
+    $db_connections[$tb_pref_counter] = $db_connections_single ;
 	if ($new)
 		$tb_pref_counter++;
 	$msg = "<?php\n\n";

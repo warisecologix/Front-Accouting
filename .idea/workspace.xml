@@ -21,7 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="79bea67e-c29e-4bb2-8495-b044afb1724f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/db/maintenance_db.inc" beforeDir="false" afterPath="$PROJECT_DIR$/admin/db/maintenance_db.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/0/js_cache/0/JsHttpRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/company/0/js_cache/0/JsHttpRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/0/js_cache/0/behaviour.js" beforeDir="false" afterPath="$PROJECT_DIR$/company/0/js_cache/0/behaviour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/0/js_cache/0/inserts.js" beforeDir="false" afterPath="$PROJECT_DIR$/company/0/js_cache/0/inserts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/0/js_cache/0/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/company/0/js_cache/0/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/0/js_cache/0/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/company/0/js_cache/0/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config_db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/api/src/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api/src/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/faillog.php" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/faillog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

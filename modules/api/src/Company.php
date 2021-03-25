@@ -89,7 +89,7 @@ class Company
             }
         }
 
-        $error = write_config_db($new);
+        $error = write_config_db_api($new);
 
         if ($error == -1)
         {

@@ -477,3 +477,466 @@
 [25-Mar-2021 09:44:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 09:44:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
 [25-Mar-2021 09:44:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:25 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:31 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:38 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:40 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:44 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:47 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:56 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:59 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:59 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:59 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:48:59 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:49:04 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:49:09 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 07:49:18 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:26:50 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:26:56 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:26:59 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:11 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:18 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:31 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:34 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:34 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:34 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:34 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:36 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:39 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:50 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:54 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:27:56 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:29:40 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:29:44 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:29:46 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:29:48 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:30:00 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:35:04 Europe/Berlin] 4 Domain file "./lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:35:32 Europe/Berlin] 0::session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:35:32 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:35:32 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, null given
+[26-Mar-2021 11:35:32 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, null given
+[26-Mar-2021 11:35:32 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, null given
+[26-Mar-2021 11:35:32 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, null given
+[26-Mar-2021 11:35:32 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, null given
+[26-Mar-2021 11:35:32 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, null given
+[26-Mar-2021 11:35:32 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:36:15 Europe/Berlin] 0::session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:36:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:36:16 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:36:16 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:38:21 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:38:21 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:38:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:38:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:38:51 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:38:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:38:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:38:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:14 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:15 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:18 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:18 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:20 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:20 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:20 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:20 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:21 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:23 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:53 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:45:55 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:47:18 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:47:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:47:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:47:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:47:51 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:47:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:47:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:47:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:48:04 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:48:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:48:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:48:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:48:15 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:48:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:48:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:48:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:49:38 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:49:38 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:49:38 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:49:38 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:49:52 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:49:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:49:53 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:49:53 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:52:47 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:52:47 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:52:47 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:52:47 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:53:11 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:53:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:53:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:53:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:26 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:54:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:31 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:54:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:32 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:32 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:39 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:54:39 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:39 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:54:39 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:55:22 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:55:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:55:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:55:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:56:18 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:56:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:56:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:56:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:57:47 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:57:47 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:57:47 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:57:47 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:03 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:58:03 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:03 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:03 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:10 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:58:10 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:10 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:10 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:15 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:58:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:58:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:59:03 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:59:03 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:59:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:59:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:59:08 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 11:59:08 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:59:08 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 11:59:08 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:01:39 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:01:39 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:01:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:01:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:01:46 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:01:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:01:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:01:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:02:40 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:02:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:02:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:02:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:02:49 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:02:49 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:02:49 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:02:49 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:09:22 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:10:55 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:10:55 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:10:55 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:10:55 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:11:01 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:11:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:11:02 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:11:02 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:13:06 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:13:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:13:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:13:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:04 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:14:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:04 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:37 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:14:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:48 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:14:48 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:48 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:14:48 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:16:57 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:16:57 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:16:58 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:16:58 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:06 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:17:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:13 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:17:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:36 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:17:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:54 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:17:54 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:54 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:17:54 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:09 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:18:09 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:09 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:09 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:20 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:18:20 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:20 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:20 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:27 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:18:27 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:27 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:27 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:39 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:18:39 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:18:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:17 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:19:17 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:17 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:17 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:35 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:19:35 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:36 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:36 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:46 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:19:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:46 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:52 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:19:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:53 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:19:53 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:20:05 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:20:05 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:20:05 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:20:05 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:20:20 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:20:20 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:20:20 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:20:20 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:22:07 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:22:07 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:22:08 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:22:08 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:22:37 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:22:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:22:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:22:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:23:24 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:23:24 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:23:25 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:23:25 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:01 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:24:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:01 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:22 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:24:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:31 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:24:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:24:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:25:28 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:25:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:25:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:25:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:26:00 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:26:00 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:26:00 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:26:00 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:27:52 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:27:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:27:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:27:52 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:29:30 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:29:30 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:29:30 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:29:30 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:30:40 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:30:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:30:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:30:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:31:19 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:31:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:31:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:31:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:31:40 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:31:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:31:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:31:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:07 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:32:07 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:08 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:08 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:19 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:32:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:25 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:32:25 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:32:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:34:02 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:34:02 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:34:02 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:34:02 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:34:11 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:34:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:34:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:34:12 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:35:26 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:35:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:35:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:35:26 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:35:33 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:35:33 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:35:33 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:35:33 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:03 Europe/Berlin] 4 Domain file "../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:13 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:36:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:14 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:14 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:18 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:36:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:34 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:36:34 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:34 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:36:34 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:37:00 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:37:00 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:37:00 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:37:00 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:37:40 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:37:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:37:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:37:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:38:19 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:38:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:38:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:38:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:39:29 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:39:29 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:39:29 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:39:29 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:39:57 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:39:57 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:39:57 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:39:57 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:22 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:40:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:22 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:31 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:40:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:31 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:38 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:40:38 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:38 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:40:38 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:41:18 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:41:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:41:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:41:18 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:41:43 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:41:43 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:41:43 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:41:43 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:42:28 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:42:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:42:29 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:42:29 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:42:49 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:42:49 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:42:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:42:50 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:43:37 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:43:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:43:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:43:37 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:21 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:44:21 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:21 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:21 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:28 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:44:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:54 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:44:54 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:54 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:44:54 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:45:24 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:45:24 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:45:24 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:45:24 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:45:51 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:45:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:45:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:45:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:10 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:46:10 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:10 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:10 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:15 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:46:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:51 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:46:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:51 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:59 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:46:59 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:59 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:46:59 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:47:12 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:47:12 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:47:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:47:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:48:28 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:48:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:48:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:48:28 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:50:06 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:50:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:50:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:50:06 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:50:40 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 12:50:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:50:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 12:50:40 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:40:13 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 13:40:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:40:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:40:13 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:41:15 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 13:41:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:41:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:41:15 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:41:56 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 13:41:56 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:41:56 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:42:11 Europe/Berlin] 2:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 13:42:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:42:11 Europe/Berlin] 2:admin:session-custom.inc:142:[before upgrade] include(../../company/2/installed_extensions.php): failed to open stream: No such file or directory
+[26-Mar-2021 13:42:11 Europe/Berlin] 2:admin:session-custom.inc:142:[before upgrade] include(): Failed opening '../../company/2/installed_extensions.php' for inclusion (include_path='.;D:/laragon/etc/php/pear')
+[26-Mar-2021 13:42:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:42:11 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:44:19 Europe/Berlin] 0:admin:session-custom.inc:82:[before upgrade] ini_set(): A session is active. You cannot change the session module's ini settings at this time
+[26-Mar-2021 13:44:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:44:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.
+[26-Mar-2021 13:44:19 Europe/Berlin] 4 Domain file "../../lang/C/LC_MESSAGES/C.po" not found.

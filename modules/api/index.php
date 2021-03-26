@@ -187,6 +187,9 @@ $rest->group('/company', function () use ($rest) {
     $rest->post('/', function () use ($rest) {
         $rest->company->handle_submit($rest);
     });
+    $rest->post('/update', function () use ($rest) {
+        $rest->company->company_update($rest);
+    });
 });
 
 

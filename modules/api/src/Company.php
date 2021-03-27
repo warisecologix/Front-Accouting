@@ -110,7 +110,7 @@ class Company
         }
         $company_id = $tb_pref_counter;
         $company_id = ($company_id - 1);
-        $status = ['message' => 'New company has been created', 'prefix' => $company_id];
+        $status = ['message' => 'New company has been created', 'prefix' => $company_id, 'company_name' => $_POST['name'], 'user_name' => $_POST['username'], 'password' => $_POST['admpassword']];
         api_success_response($status);
         $Mode = 'RESET';
         return true;

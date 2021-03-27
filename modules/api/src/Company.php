@@ -136,7 +136,8 @@ class Company
                 $ext = '.gif';
             }
 
-            $filepath = "../../images";
+            $filepath = company_path()."/images";
+
 
             if (!file_exists($filepath))
             {
@@ -148,14 +149,13 @@ class Company
 
                 $filename = date('YmdHis') . $ext;
 
-                if (file_put_contents($filepath  . $filename, $image) !== FALSE) {
-                    echo $filename;
-                    return $filename;
+                if (file_put_contents( $filepath . '/' . $filename, $image) !== FALSE) {
+                    $_POST['coy_logo'] = $filename;
                 }
             }
-            die();
+
             update_company_prefs(
-                $this->get_post(array('coy_name', 'coy_no', 'gst_no', 'phone', 'curr_default'))
+                $this->get_post(array('coy_name', 'coy_no', 'gst_no', 'phone', 'curr_default', 'coy_logo'))
             );
             $status = ['message' => 'Company data is updated'];
             api_success_response($status);

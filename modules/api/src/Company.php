@@ -157,7 +157,7 @@ class Company
 
         }
         update_company_prefs(
-            $this->get_post(array('coy_name', 'coy_no', 'gst_no', 'phone', 'curr_default', 'coy_logo'))
+            $this->get_post(array('coy_name', 'coy_no', 'gst_no', 'phone', 'curr_default', 'coy_logo', 'postal_address' , 'email'))
         );
         $status = ['message' => 'Company data is updated'];
         api_success_response($status);

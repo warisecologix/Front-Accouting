@@ -20,7 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79bea67e-c29e-4bb2-8495-b044afb1724f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/company/1/attachments/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/1/backup/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/1/images/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/1/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/1/installed_extensions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/1/js_cache/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/1/pdf_files/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/1/reporting/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/api/src/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api/src/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpfaillog.php" beforeDir="false" afterPath="$PROJECT_DIR$/tmpfaillog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +88,7 @@
       <workItem from="1616661700412" duration="1016000" />
       <workItem from="1616741393591" duration="175000" />
       <workItem from="1616754076090" duration="6545000" />
-      <workItem from="1616821283512" duration="747000" />
+      <workItem from="1616821283512" duration="3320000" />
     </task>
     <servers />
   </component>
@@ -99,6 +111,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="456" y="87" key="NewPhpClassDialog" timestamp="1616823686442">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="456" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1616823686442" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1616821325506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

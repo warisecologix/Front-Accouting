@@ -111,8 +111,6 @@ class Company
         $company_id = $tb_pref_counter;
         $company_id = ($company_id - 1);
         $status = ['message' => 'New company has been created', 'prefix' => $company_id];
-
-
         api_success_response($status);
         $Mode = 'RESET';
         return true;
@@ -120,17 +118,56 @@ class Company
 
     function company_update()
     {
-        update_company_prefs(
-            $this->get_post( array('coy_name','coy_no','gst_no','phone','curr_default'))
-        );
+        $data = $_POST['pic'];
+        if (isset($_POST['pic'])) {
+            $ext = null;
 
+            if (strpos($data, 'data:image/jpeg;base64,') === 0) {
+                $data = str_replace('data:image/jpeg;base64,', '', $data);
+                $ext = '.jpg';
+            } elseif (strpos($data, 'data:image/jpg;base64,') === 0) {
+                $data = str_replace('data:image/jpg;base64,', '', $data);
+                $ext = '.jpg';
+            } elseif (strpos($data, 'data:image/png;base64,') === 0) {
+                $data = str_replace('data:image/png;base64,', '', $data);
+                $ext = '.png';
+            } elseif (strpos($data, 'data:image/gif;base64,') === 0) {
+                $data = str_replace('data:image/gif;base64,', '', $data);
+                $ext = '.gif';
+            }
+
+            $filepath = "../../images";
+
+            if (!file_exists($filepath))
+            {
+                mkdir($filepath);
+            }
+
+            if ($ext != null) {
+                $image = base64_decode($data);
+
+                $filename = date('YmdHis') . $ext;
+
+                if (file_put_contents($filepath  . $filename, $image) !== FALSE) {
+                    echo $filename;
+                    return $filename;
+                }
+            }
+            die();
+            update_company_prefs(
+                $this->get_post(array('coy_name', 'coy_no', 'gst_no', 'phone', 'curr_default'))
+            );
+            $status = ['message' => 'Company data is updated'];
+            api_success_response($status);
+        }
     }
-    function get_post($name, $dflt='')
+
+    function get_post($name, $dflt = '')
     {
 
         if (is_array($name)) {
             $ret = array();
-            foreach($name as $key => $dflt)
+            foreach ($name as $key => $dflt)
                 if (!is_numeric($key)) {
                     $ret[$key] = is_numeric($dflt) ? input_num($key, $dflt) : get_post($key, $dflt);
                 } else {

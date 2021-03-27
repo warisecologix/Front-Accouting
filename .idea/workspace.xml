@@ -20,25 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79bea67e-c29e-4bb2-8495-b044afb1724f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/1/attachments/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/1/backup/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/1/images/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/1/installed_extensions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/1/js_cache/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/1/pdf_files/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/1/reporting/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/3/js_cache/1/JsHttpRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/3/js_cache/1/behaviour.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/3/js_cache/1/inserts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/3/js_cache/1/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/3/js_cache/1/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/company_preferences.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/company_preferences.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/db/company_db.inc" beforeDir="false" afterPath="$PROJECT_DIR$/admin/db/company_db.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/attachments/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/backup/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/images/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/installed_extensions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/js_cache/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/pdf_files/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/1/reporting/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/3/js_cache/1/JsHttpRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/3/js_cache/1/behaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/3/js_cache/1/inserts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/3/js_cache/1/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/3/js_cache/1/utils.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/api/src/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/api/src/Company.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +91,7 @@
       <workItem from="1616661700412" duration="1016000" />
       <workItem from="1616741393591" duration="175000" />
       <workItem from="1616754076090" duration="6545000" />
+      <workItem from="1616821283512" duration="592000" />
     </task>
     <servers />
   </component>
@@ -117,10 +114,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2179" y="13" key="SettingsEditor" timestamp="1616757890610">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1616821325506">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616566591028" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616821325506" />
     <state x="2179" y="13" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616757890610" />
     <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1616421111601">
       <screen x="0" y="0" width="1366" height="728" />
@@ -145,7 +142,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/admin/company_preferences.php</url>
-          <line>125</line>
+          <line>127</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">

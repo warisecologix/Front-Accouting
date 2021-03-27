@@ -154,12 +154,13 @@ class Company
                 }
             }
 
-            update_company_prefs(
-                $this->get_post(array('coy_name', 'coy_no', 'gst_no', 'phone', 'curr_default', 'coy_logo'))
-            );
-            $status = ['message' => 'Company data is updated'];
-            api_success_response($status);
+
         }
+        update_company_prefs(
+            $this->get_post(array('coy_name', 'coy_no', 'gst_no', 'phone', 'curr_default', 'coy_logo'))
+        );
+        $status = ['message' => 'Company data is updated'];
+        api_success_response($status);
     }
 
     function get_post($name, $dflt = '')

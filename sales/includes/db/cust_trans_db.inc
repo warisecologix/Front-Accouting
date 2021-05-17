@@ -21,7 +21,8 @@ function update_customer_trans_version($type, $versions) {
 		$where[] = 	'(trans_no='.db_escape($trans_no).' AND version='.$version.')';
 
 		$sql .= implode(' OR ', $where) .')';
-
+	echo $sql;
+	die();
 	return  db_query($sql, 'Concurrent editing conflict');
 }
 

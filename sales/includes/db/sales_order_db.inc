@@ -57,14 +57,19 @@ function add_sales_order(&$order)
 	{
 		if ($SysPrefs->loc_notification() == 1 && is_inventory_item($line->stock_id))
 			$loc = calculate_reorder_level($order->Location, $line, $st_ids, $st_names, $st_num, $st_reorder); 
+        
+	$percentage = $line->discount_percent ;
 
-		$sql = "INSERT INTO ".TB_PREF."sales_order_details (order_no, trans_type, stk_code, description, unit_price, quantity, discount_percent) VALUES (";
-		$sql .= $order_no . ",".$order->trans_type .
-				",".db_escape($line->stock_id).", "
-				.db_escape($line->item_description).", $line->price,
-				$line->quantity,
-				$line->discount_percent)";
-		db_query($sql, "order Details Cannot be Added");
+	if($percentage == "" || $percentage == null){
+	$percentage = 0;
+	}
+	$sql = "INSERT INTO " . TB_PREF . "sales_order_details (order_no, trans_type, stk_code, description, unit_price, quantity, discount_percent) VALUES (";
+	$sql .= $order_no . "," . $order->trans_type .
+	"," . db_escape($line->stock_id) . ", "
+	. db_escape($line->item_description) . ", $line->price,
+	$line->quantity,
+	$percentage)";
+	db_query($sql, "order Details Cannot be Added");
 
 	// Now mark quotation line as processed
 		if ($order->trans_type == ST_SALESORDER && $line->src_id)

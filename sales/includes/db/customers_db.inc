@@ -27,6 +27,23 @@ function add_customer($CustName, $cust_ref, $address, $tax_id, $curr_code,
 	db_query($sql,"The customer could not be added");
 }
 
+function add_customer_api($CustName, $cust_ref, $address, $tax_id, $curr_code,
+	$dimension_id, $dimension2_id, $credit_status, $payment_terms, $discount, $pymt_discount, 
+	$credit_limit, $sales_type, $notes, $imported)
+{
+	$sql = "INSERT INTO ".TB_PREF."debtors_master (name, debtor_ref, address, tax_id,
+		dimension_id, dimension2_id, curr_code, credit_status, payment_terms, discount, 
+		pymt_discount,credit_limit, sales_type, notes, imported) VALUES ("
+		.db_escape($CustName) .", " .db_escape($cust_ref) .", "
+		.db_escape($address) . ", " . db_escape($tax_id) . ","
+		.db_escape($dimension_id) . ", " 
+		.db_escape($dimension2_id) . ", ".db_escape($curr_code) . ", 
+		" . db_escape($credit_status) . ", ".db_escape($payment_terms) . ", " . $discount . ", 
+		" . $pymt_discount . ", " . $credit_limit 
+		 .", ".db_escape($sales_type).", ".db_escape($notes) . "," . db_escape($imported) . ")";
+	db_query($sql,"The customer could not be added");
+}
+
 function update_customer($customer_id, $CustName, $cust_ref, $address, $tax_id, $curr_code,
 	$dimension_id, $dimension2_id, $credit_status, $payment_terms, $discount, $pymt_discount,
 	$credit_limit, $sales_type, $notes)

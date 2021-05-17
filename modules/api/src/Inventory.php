@@ -56,7 +56,7 @@ class Inventory
             $from = 0;
         }
 
-        $sql = "SELECT * FROM " . TB_PREF . "stock_master LIMIT " . $from . ", " . RESULTS_PER_PAGE;
+        $sql = "SELECT * FROM " . TB_PREF . "stock_master";
 
         $query = db_query($sql, "error");
 
@@ -108,9 +108,6 @@ class Inventory
         }
         if (! isset($info['description'])) {
             api_error(412, 'Description is required');
-        }
-        if (! isset($info['long_description'])) {
-            $info['long_description'] = $info['description'];
         }
         if (! isset($info['category_id'])) {
             api_error(412, 'Category Id is required');
@@ -187,9 +184,6 @@ class Inventory
         // Validate Required Fields
         if (! isset($info['description'])) {
             api_error(412, 'Description is required');
-        }
-        if (! isset($info['long_description'])) {
-            $info['long_description'] = $info['description'];
         }
         if (! isset($info['category_id'])) {
             api_error(412, 'Category Id is required');

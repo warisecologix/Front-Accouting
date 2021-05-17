@@ -28,11 +28,11 @@ $db_connections = array (
     'name' => 'Ishiply',
     'host' => 'localhost',
     'port' => '3306',
-    'dbname' => 'frontaccounting',
+    'dbname' => 'front-accounting',
     'collation' => 'utf8_xx',
     'tbpref' => '0_',
     'dbuser' => 'root',
     'dbpassword' => '',
-  ),
+  )
 
 );

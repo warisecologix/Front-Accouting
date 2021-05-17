@@ -14,6 +14,7 @@ use FAAPI\Sales;
 use FAAPI\Dimensions;
 use FAAPI\Journal;
 use FAAPI\ExchangeRates;
+use FAAPI\Purchases;
 
 /**********************************************
 Author: Andres Amaya
@@ -187,6 +188,9 @@ $rest->group('/company', function () use ($rest) {
     $rest->post('/', function () use ($rest) {
         $rest->company->handle_submit($rest);
     });
+    $rest->post('/update', function () use ($rest) {
+        $rest->company->company_update($rest);
+    });
 });
 
 
@@ -206,6 +210,10 @@ $rest->group('/taxtypes', function () use ($rest) {
     // Get Specific Tax Type
     $rest->get('/:id', function ($id) use ($rest) {
         $rest->taxTypes->getById($rest, $id);
+    });
+    // POST Tax Types
+    $rest->post('/', function () use ($rest) {
+        $rest->taxTypes->post($rest);
     });
 });
 // --------------------------------- Tax Types --------------------------------
@@ -476,7 +484,19 @@ $rest->group('/sales', function () use ($rest) {
     });
 });
 // ------------------------------- Sales --------------------------------
-
+// ------------------------------- Purchases --------------------------------
+$rest->container->singleton('purchases', function () {
+    return new Sales();
+});
+$rest->group('/purchases', function () use ($rest) {
+    // Insert Purchases
+    $rest->post('/', function () use ($rest) {
+        echo "string";
+        die();
+        $rest->sales->post($rest);
+    });
+});
+// ------------------------------- Purchases --------------------------------
 // ----------------------------- Dimensions -----------------------------
 $rest->container->singleton('dimensions', function () {
     return new Dimensions();

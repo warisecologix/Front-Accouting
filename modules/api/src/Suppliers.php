@@ -47,10 +47,10 @@ class Suppliers
             api_error(412, 'GST No. is required [gst_no]');
         }
         if (! isset($info['supp_account_no'])) {
-            api_error(412, 'Supplier Account Number is required [supp_account_no]');
+            $info['supp_account_no'] = '';
         }
         if (! isset($info['bank_account'])) {
-            api_error(412, 'Bank Account is required [bank_account]');
+            $info['bank_account'] = '';
         }
         if (! isset($info['credit_limit'])) {
             api_error(412, 'Credit Limir is required [credit_limit]');
@@ -88,10 +88,18 @@ class Suppliers
          * $credit_limit, $dimension_id, $dimension2_id, $curr_code, $payment_terms, $payable_account,
          * $purchase_account, $payment_discount_account, $notes, $tax_group_id, $tax_included
          */
-        add_supplier($info['supp_name'], $info['supp_ref'], $info['address'], $info['supp_address'], $info['gst_no'], $info['website'], $info['supp_account_no'], $info['bank_account'], $info['credit_limit'], 0, 0, $info['curr_code'], $info['payment_terms'], $info['payable_account'], $info['purchase_account'], $info['payment_discount_account'], $info['notes'], $info['tax_group_id'], $info['tax_included']);
+        add_supplier($info['supp_name'], $info['supp_ref'], $info['address'], $info['supp_address'], $info['gst_no'], $info['website'], $info['supp_account_no'], $info['bank_account'], $info['credit_limit'], 0, 0, $info['curr_code'], $info['payment_terms'], $info['payable_account'], $info['purchase_account'], $info['payment_discount_account'], $info['notes'], $info['tax_group_id'], $info['tax_included']); 
 
         $id = db_insert_id();
         $sup = get_supplier($id);
+
+        $supplier_id = $info['supplier_id'] = db_insert_id();
+
+        add_crm_person($info['supp_ref'], $info['supp_name'], '', $info['address'], 
+        $info['phone'], $info['phone2'], $info['fax'], $info['email'], 
+        $info['lang'], '');
+
+        add_crm_contact('supplier', 'general', $supplier_id, db_insert_id());
 
         if ($sup != null) {
             api_create_response(json_encode($sup));
@@ -127,10 +135,10 @@ class Suppliers
             api_error(412, 'GST No. is required [gst_no]');
         }
         if (! isset($info['supp_account_no'])) {
-            api_error(412, 'Supplier Account Number is required [supp_account_no]');
+            $info['supp_account_no'] = '';
         }
         if (! isset($info['bank_account'])) {
-            api_error(412, 'Bank Account is required [bank_account]');
+            $info['bank_account'] = '';
         }
         if (! isset($info['credit_limit'])) {
             api_error(412, 'Credit Limir is required [credit_limit]');
@@ -207,7 +215,7 @@ class Suppliers
             $from = 0;
         }
 
-        $sql = "SELECT * FROM " . TB_PREF . "suppliers LIMIT " . $from . ", " . RESULTS_PER_PAGE;
+        $sql = "SELECT * FROM " . TB_PREF . "suppliers";
 
         $query = db_query($sql, "error");
 

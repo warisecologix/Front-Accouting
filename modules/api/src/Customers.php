@@ -111,7 +111,7 @@ class Customers
          * $CustName, $debtor_ref, $address, $tax_id, $curr_code, $dimension_id, $dimension2_id, $credit_status,
          * $payment_terms, $discount, $pymt_discount, $credit_limit, $sales_type, $notes
          */
-        add_customer($info['name'], $info['debtor_ref'], $info['address'], $info['tax_id'], $info['curr_code'], 0, 0, $info['credit_status'], $info['payment_terms'], $info['discount'], $info['pymt_discount'], $info['credit_limit'], $info['sales_type'], $info['notes']);
+        add_customer_api($info['name'], $info['debtor_ref'], $info['address'], $info['tax_id'], $info['curr_code'], 0, 0, $info['credit_status'], $info['payment_terms'], $info['discount'], $info['pymt_discount'], $info['credit_limit'], $info['sales_type'], $info['notes'], $info['imported']);
 
         $selected_id = db_insert_id();
         $auto_create_branch = 1;
@@ -266,12 +266,12 @@ class Customers
             $from = 0;
         }
 
-        $sql = "SELECT * FROM " . TB_PREF . "debtors_master WHERE !inactive LIMIT " . $from . ", " . RESULTS_PER_PAGE;
+        // $sql = "SELECT * FROM " . TB_PREF . "debtors_master WHERE !inactive LIMIT " . $from . ", " . RESULTS_PER_PAGE;
+        $sql = "SELECT * FROM ".TB_PREF."debtors_master WHERE imported = 0";
 
         $query = db_query($sql, "error");
 
-        $info = array();
-
+        $info = array();;
         while ($data = db_fetch_assoc($query, "error")) {
             $info[] = $data;
         }

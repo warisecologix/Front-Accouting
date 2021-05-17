@@ -318,15 +318,17 @@ function sales_add() {
 
   switch($cart->trans_type) {
   	case ST_SALESQUOTE:
-  		api_success_response(sprintf(_("Quotation # %d has been entered."), key($cart->trans_no)));
+  		// api_success_response(sprintf(_("Quotation # %d has been entered."), key($cart->trans_no)), $cart->trans_no);
+  		api_success_response(key($cart->trans_no));
   		return;
   		break;
   	case ST_SALESORDER:
-  		api_success_response(sprintf(_("Order # %d has been entered."), key($cart->trans_no)));
+  		api_success_response(key($cart->trans_no));
+  		// api_success_response(sprintf(_("Order # %d has been entered."), key($cart->trans_no)), $cart->trans_no);
   		return;
   		break;
   	case ST_SALESINVOICE:
-  		$feeback_response = sprintf(_("Invoice # %d has been entered."), key($cart->trans_no));
+  		$feeback_response = sprintf(_("Invoice # %d has been entered."), key($cart->trans_no),$cart->trans_no);
 
 //   		if ($cfdi_response != "") {
 //   			$feeback_response .= "\r\n".$cfdi_response;
@@ -512,9 +514,9 @@ function can_process($info, $cart) {
 		return array("passed" => false, "message" => _("The entered date is invalid."));
 	}
 
-	if ($cart->trans_type != ST_SALESORDER && $cart->trans_type != ST_SALESQUOTE && !is_date_in_fiscalyear($info['order_date'])) {
-		return array("passed" => false, "message" => _("The entered date is not in fiscal year"));
-	}
+	// if ($cart->trans_type != ST_SALESORDER && $cart->trans_type != ST_SALESQUOTE && !is_date_in_fiscalyear($info['order_date'])) {
+	// 	return array("passed" => false, "message" => _("The entered date is not in fiscal year"));
+	// }
 
 	if (count($cart->line_items) == 0)	{
 		return array("passed" => false, "message" => _("You must enter at least one non empty item line."));
@@ -558,9 +560,9 @@ function can_process($info, $cart) {
 		}
 	}
 
-	if (!$Refs->is_valid($info['ref'], $cart->trans_type)) {
-		return array("passed" => false, "message" => _("You must enter a valid reference."));
-	}
+	// if (!$Refs->is_valid($info['ref'], $cart->trans_type)) {
+	// 	return array("passed" => false, "message" => _("You must enter a valid reference."));
+	// }
 
 	if (!db_has_currency_rates($cart->customer_currency, $info['order_date'])){
 		return false;

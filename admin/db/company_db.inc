@@ -14,6 +14,7 @@
 */
 function update_company_prefs($params)
 {
+
 	$sql = "UPDATE ".TB_PREF."sys_prefs SET value = ";
 	foreach($params as $name => $value) {
 		if (!db_query($sql. db_escape($value). " WHERE name=".db_escape($name),

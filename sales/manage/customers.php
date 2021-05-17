@@ -102,10 +102,11 @@ function handle_submit(&$selected_id)
 	{ 	//it is a new customer
 
 		begin_transaction();
+		$_POST['imported'] = 0;
 		add_customer($_POST['CustName'], $_POST['cust_ref'], $_POST['address'],
 			$_POST['tax_id'], $_POST['curr_code'], $_POST['dimension_id'], $_POST['dimension2_id'],
 			$_POST['credit_status'], $_POST['payment_terms'], input_num('discount') / 100, input_num('pymt_discount') / 100,
-			input_num('credit_limit'), $_POST['sales_type'], $_POST['notes']);
+			input_num('credit_limit'), $_POST['sales_type'], $_POST['imported'], $_POST['notes']);
 
 		$selected_id = $_POST['customer_id'] = db_insert_id();
          
@@ -208,7 +209,6 @@ function customer_settings($selected_id)
 	else 
 	{
 		$myrow = get_customer($selected_id);
-
 		$_POST['CustName'] = $myrow["name"];
 		$_POST['cust_ref'] = $myrow["debtor_ref"];
 		$_POST['address']  = $myrow["address"];

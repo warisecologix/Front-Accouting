@@ -60,7 +60,7 @@ if (isset($_POST['update']) && $_POST['update'] != "")
 		display_error(_("Add Price from Std Cost field must be number."));
 		set_focus('add_pct');
 		$input_error = 1;
-	}	
+	}
 	if (isset($_FILES['pic']) && $_FILES['pic']['name'] != '')
 	{
     if ($_FILES['pic']['error'] == UPLOAD_ERR_INI_SIZE) {
@@ -121,6 +121,8 @@ if (isset($_POST['update']) && $_POST['update'] != "")
 			}
 		}
 	}
+
+
 	if (check_value('del_coy_logo'))
 	{
 		$filename = company_path()."/images/".clean_file_name($_POST['coy_logo']);
@@ -135,6 +137,9 @@ if (isset($_POST['update']) && $_POST['update'] != "")
 		}
 		$_POST['coy_logo'] = "";
 	}
+
+
+
 	if ($_POST['add_pct'] == "")
 		$_POST['add_pct'] = -1;
 	if ($_POST['round_to'] <= 0)

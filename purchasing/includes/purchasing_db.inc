@@ -146,7 +146,7 @@ function get_po_prepayments($supp_trans)
 
 //---------------------------------------------------------------------------------------------------
 //
-//	Add Purchase Order, GRN or Purchase Invoice with parent auto documents (if any)
+//	Add Purc    hase Order, GRN or Purchase Invoice with parent auto documents (if any)
 //
 function add_direct_supp_trans($cart)
 {

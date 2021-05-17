@@ -21,7 +21,7 @@ if (!is_array($debtor_trans_no))
         line.unit_price AS UnitPriceExTax,  
 		line.description AS StockDescription,
 		item.long_description AS StockLongDescription,
-		item.units, item.mb_flag
+		item.units, item.mb_flag 
 		FROM "
 			.TB_PREF."debtor_trans_details line,"
 			.TB_PREF."stock_master item

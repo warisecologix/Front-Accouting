@@ -33,6 +33,20 @@ class TaxTypes
         }
         api_success_response(json_encode(\api_ensureAssociativeArray($taxType)));
     }
+    
+    public function post($rest)
+    {
+        $name = $_POST['name'];
+        $sales_gl_code = $_POST['sales_gl_code'];
+        $purchasing_gl_code = $_POST['purchasing_gl_code'];
+        $rate = $_POST['rate'];
+        $sql = "INSERT INTO ".TB_PREF."tax_types (name, sales_gl_code, purchasing_gl_code, rate)
+            VALUES (".db_escape($name).", ".db_escape($sales_gl_code)
+            .", ".db_escape($purchasing_gl_code).", $rate)";
+        db_query($sql, "could not add tax type");
+        api_success_response(_('New tax type has been added'));
+
+    }
 
     private function taxtypes_all($from = null)
     {
@@ -40,7 +54,7 @@ class TaxTypes
             $from = 0;
         }
 
-        $sql = "SELECT * FROM " . TB_PREF . "item_tax_types LIMIT " . $from . ", " . RESULTS_PER_PAGE;
+        $sql = "SELECT * FROM " . TB_PREF . "tax_types LIMIT " . $from . ", " . RESULTS_PER_PAGE;
 
         $query = db_query($sql, "error");
 
@@ -50,7 +64,7 @@ class TaxTypes
             $info[] = array(
                 'id' => $data['id'],
                 'name' => $data['name'],
-                'exempt' => $data['exempt']
+                'percentage' => $data['rate']
             );
         }
 

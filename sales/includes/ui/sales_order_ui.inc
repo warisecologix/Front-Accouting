@@ -100,10 +100,10 @@ function get_customer_details_to_order(&$order, $customer_id, $branch_id)
 	}
 	$result = get_branch_to_order($customer_id, $branch_id);
 
-	if (db_num_rows($result) == 0)
-	{
-		return _("The selected customer and branch are not valid, or the customer does not have any branches.");
-	}
+	// if (db_num_rows($result) == 0)
+	// {
+	// 	return _("The selected customer and branch are not valid, or the customer does not have any branches.");
+	// }
 
 	$myrow = db_fetch($result);
 

@@ -73,6 +73,15 @@
       <workItem from="1616419147668" duration="1245000" />
       <workItem from="1616564765062" duration="4185000" />
       <workItem from="1616572794080" duration="576000" />
+      <workItem from="1616656817405" duration="705000" />
+      <workItem from="1616661700412" duration="1016000" />
+      <workItem from="1616741393591" duration="175000" />
+      <workItem from="1616754076090" duration="6545000" />
+      <workItem from="1616821283512" duration="4837000" />
+      <workItem from="1616826348960" duration="376000" />
+      <workItem from="1616829365979" duration="503000" />
+      <workItem from="1616840218645" duration="658000" />
+      <workItem from="1616842196689" duration="20000" />
     </task>
     <servers />
   </component>
@@ -95,12 +104,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="9" key="SettingsEditor" timestamp="1616566591028">
+    <state x="456" y="87" key="NewPhpClassDialog" timestamp="1616823686442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+<<<<<<< HEAD
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616566591028" />
     <state x="2468" y="139" width="823" height="763" key="find.popup" timestamp="1616589132149">
       <screen x="1920" y="0" width="1920" height="1040" />
+=======
+    <state x="456" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1616823686442" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1616821325506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616821325506" />
+    <state x="2179" y="13" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616757890610" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1616421111601">
+      <screen x="0" y="0" width="1366" height="728" />
+>>>>>>> 143e42081b106f162d22fe9553a30faf5ca964f6
     </state>
     <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1616421111601" />
     <state x="2468" y="139" width="823" height="763" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616589132149" />
@@ -120,6 +140,16 @@
             <option name="methodName" value="\handle_submit" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/company_preferences.php</url>
+          <line>127</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/company_preferences.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
